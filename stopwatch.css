@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@900&display=swap');
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #2296f3;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid #2296f3;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background-color: white;
+    color: hsl(206.7deg 89.7% 54.31%);
+    
+}
+p{
+    
+    margin-top: 30px;
+
+}
+
+#time{
+    font-size: 30px;
+}
+
+button{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    column-gap: 100px;
+    background-color: hsl(206.7deg 89.7% 54.31%);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 8px;  
+    
+}
+
+button:hover{
+    height: 40px;
+    width: 40px;
+}
+#stop{
+    background-color: #f54337;
+}
+#start{
+    background-color: #4caf50;
+}
+
+

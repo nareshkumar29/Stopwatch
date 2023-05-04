@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+   <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <header>
+        <h1>Stopwatch</h1>
+    </header>
+    <div class="container">
+        <p id="time">
+           <span id="min">00</span>:<span id="sec">00</span>:<span id="mili">00</span>
+        </p>
+        <div id="button">
+            <button id="stop"><ion-icon name="stop"></ion-icon></button>
+            <button id="start"><ion-icon name="play"></ion-icon></button>
+            <button id="reset"><ion-icon name="reload"></ion-icon></button>
+     
+        </div>    
+    </div>
+
+    <script src="stopwatch.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
